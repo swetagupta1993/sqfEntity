@@ -15,7 +15,10 @@ dependencies:
   sqflite: ^2.0.0+2
   synchronized: ">=3.0.0 <4.0.0"
   path: ">=1.6.2 <2.0.0"
-  sqfentity_gen: '>=1.5.0-nullsafety.0+4 <3.0.0'
+  sqfentity_gen:
+    git:
+      url: https://github.com/swetagupta1993/sqfentity_gen.git
+      ref: main
   sqflite_common: ^2.0.0+2
   sqflite_common_ffi: ^2.0.0
 
